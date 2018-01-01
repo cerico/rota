@@ -1,25 +1,24 @@
-import React from 'react';
+import React from "react";
 
-const Footer = ({product}) => {
-
+const Footer = ({ product }) => {
   const colourStyle = {
     borderColor: product.color,
-    borderStyle: 'solid',
-    borderTopWidth: '1px'
+    borderStyle: "solid",
+    borderTopWidth: "1px"
   };
 
   const urlStyle = {
-    marginTop: '0.5rem',
-    float: 'right',
-    fontSize: '0.74rem',
-    fontFamily: 'roboto'
+    marginTop: "0.5rem",
+    float: "right",
+    fontSize: "0.74rem",
+    fontFamily: "roboto"
   };
 
-  return(
+  return (
     <div style={colourStyle}>
       <p style={urlStyle}>{product.base}</p>
     </div>
-  )
+  );
 };
 
-export default Footer
+export default Footer;
