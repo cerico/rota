@@ -2,7 +2,7 @@ import React from 'react';
 
 var classNames = require('classnames');
 
-const WideLogo = ([product]) => {
+const WideLogo = ({product}) => {
    
     let useStyle
     var imgStyle = {
