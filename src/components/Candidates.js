@@ -57,11 +57,8 @@ export default class Candidates extends React.Component  {
       <div className={styles.grid} style={style.general}>
         <div className={styles.accepted}>
           <FontAwesome
-            className='super-crazy-colors'
             name='arrow-left'
-            size='2x'
-            // spin
-            style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            size='1x'
           />
         </div>
         {
@@ -90,11 +87,8 @@ export default class Candidates extends React.Component  {
         }
         <div className={styles.rejected}>
           <FontAwesome
-            className='super-crazy-colors'
             name='arrow-right'
-            size='8x'
-            // spin
-            style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            size='1x'
           />
         </div>
       </div> 
