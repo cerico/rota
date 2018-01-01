@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer = (props) => {
+const Footer = ({product}) => {
 
   const colourStyle = {
-    borderColor: props.product.color,
+    borderColor: product.color,
     borderStyle: 'solid',
     borderTopWidth: '1px'
   };
@@ -17,7 +17,7 @@ const Footer = (props) => {
 
   return(
     <div style={colourStyle}>
-      <p style={urlStyle}>Leeds Operatic</p>
+      <p style={urlStyle}>{product.base}</p>
     </div>
   )
 };

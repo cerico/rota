@@ -2,13 +2,15 @@
   "candidates": [
     {
   "name": "Jenny Allen",
+  "base": "Leeds Operatic",
   "color":  "rgb(246, 235, 213)",
   "direction":  "column",
   "background":  "#222",
   "url":  "http://www.rocopartners.com",
   "logo": "headshot1-thumb.jpg"
 },{
-  "name": "Rachel Harper",
+  "name": "Craig Harper",
+  "base": "Dusseldorf Choral",
   "color":  "rgb(246, 235, 213)",
   "direction":  "column",
   "background":  "#22314b",
@@ -16,16 +18,50 @@
   "logo": "headshot2-thumb.jpg"
 },{
   "name": "Tim Lewis",
+  "base": "Oslo Philharmonic",
   "color":  "rgb(246, 235, 213)",
   "direction":  "column",
   "background":  "rgb(64, 116, 69)",
   "url":  "http://football.malham.io",
   "logo": "headshot3-thumb.jpg"
 },{
-  "name": "Alistair Sasqua",
+  "name": "Charlotte Sasqua",
+  "base": "Glasgow Oratory",
   "color":  "#222",
   "direction":  "column",
   "background":  "rgb(230, 185, 185)",
   "url":  "http://www.alistair.com",
   "logo": "headshot4-thumb.jpg"
+},    {
+  "name": "Mikey Bradford",
+  "base": "Baltimore Philharmonic",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "#222",
+  "url":  "http://www.rocopartners.com",
+  "logo": "headshot5-thumb.jpg"
+},{
+  "name": "Liz Bannan",
+  "base": "Burnley Folk Society",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "#22314b",
+  "url":  "http://football.malham.io",
+  "logo": "headshot6-thumb.jpg"
+},{
+  "name": "Alison Nowitz",
+  "base": "Bremen Orchestra",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "rgb(64, 116, 69)",
+  "url":  "http://football.malham.io",
+  "logo": "headshot7-thumb.jpg"
+},{
+  "name": "Harper Waloon",
+  "base": "Leeds Operatic",
+  "color":  "#222",
+  "direction":  "column",
+  "background":  "rgb(230, 185, 185)",
+  "url":  "http://www.alistair.com",
+  "logo": "headshot8-thumb.jpg"
 }]}

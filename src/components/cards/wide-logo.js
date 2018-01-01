@@ -2,11 +2,11 @@ import React from 'react';
 
 var classNames = require('classnames');
 
-const WideLogo = (props) => {
+const WideLogo = ([product]) => {
    
     let useStyle
     var imgStyle = {
-      backgroundImage: 'url(\'http://' + window.location.host + '/public/' + props.product.logo + '\')',
+      backgroundImage: 'url(\'http://' + window.location.host + '/public/' + product.logo + '\')',
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
       width: '100%',
@@ -34,14 +34,14 @@ const WideLogo = (props) => {
       marginLeft: '60px'
     }
 
-    props.product.logo ? 
+    product.logo ? 
       useStyle = imgStyle
       : useStyle = numStyle
 
 
     return (
       <div style={divStyle}>
-        <div style={useStyle}>{props.product.number}</div>
+        <div style={useStyle}>{product.number}</div>
       </div>
     )
 };

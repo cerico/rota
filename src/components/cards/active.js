@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { DropTarget, DragSource } from 'react-dnd';
+const classNames = require('classnames');
 import Card from './index';
 import CardBody from './body';
 import Header from './header';
 import Footer from './footer';
-import { DropTarget, DragSource } from 'react-dnd';
 import styles from './card.css'
-const classNames = require('classnames');
 
-const listSource = {
+
+const source = {
   beginDrag(props) {
     props.changeDisplay({opacity:0})
-    // props.moveCard(props.product, 'TRANSIT');
     return {
       id: "l",
       x: "f"
@@ -31,30 +31,29 @@ const listSource = {
   }
 };
 
-const listTarget = {}
 
-@DropTarget('list', listTarget, connectDragSource => ({
+
+@DropTarget('l', {}, connectDragSource => ({
   connectDropTarget: connectDragSource.dropTarget(),
 }))
-@DragSource('list', listSource, (connectDragSource, monitor) => ({
-  connectDragSource: connectDragSource.dragSource(),
-  isDragging: monitor.isDragging()
+@DragSource('l', source, (connectDragSource, monitor) => ({
+  connectDragSource: connectDragSource.dragSource()
 }))
 export default class ProductItem extends React.Component  {
 
   render() {
-    const { connectDropTarget, connectDragSource, product, x, styling, isDragging } = this.props;
+    const { connectDropTarget, connectDragSource, product, opacity } = this.props;
     
     const classes = classNames(styles.card,this.props.classes)
 
     const cardStyle = {
-      background: this.props.product.background,
-      color: this.props.product.color,
-      opacity: this.props.opacity
+      background: product.background,
+      color: product.color,
+      opacity: opacity
     };
 
     return connectDragSource(connectDropTarget(
-      <a href={this.props.product.url} className={classes} style={cardStyle}>
+      <a href={product.url} className={classes} style={cardStyle}>
         <div className={styles.inner}>
           <Header {...this.props}/>
           <CardBody {...this.props}/>

@@ -8,7 +8,6 @@ import styles from './Candidates.css';
 import NormalCard from './Cards';
 import ActiveCard from './Cards/active';
 import { moveCard } from '../state/actions/candidates';
-import CandidateSquare from './CandidateSquare';
 import {activeCandidate, getImage} from '../utils'
 
 const mapStateToProps = (state) => {
@@ -58,7 +57,6 @@ export default class Candidates extends React.Component  {
         <div className={styles.accepted}>
           <FontAwesome
             name='arrow-left'
-            size='1x'
           />
         </div>
         {
@@ -88,7 +86,6 @@ export default class Candidates extends React.Component  {
         <div className={styles.rejected}>
           <FontAwesome
             name='arrow-right'
-            size='1x'
           />
         </div>
       </div> 

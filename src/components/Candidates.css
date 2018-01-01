@@ -10,7 +10,11 @@
   left: 50%;
   margin-top: -50px;
   margin-left: -136px;
-  position:absolute
+  position:absolute;
+  transition: margin-left linear 15s;
+  transition: margin-top linear 15s;
+   /* transition-delay: 12s; */
+	
 }
 
 .offset{

@@ -8,18 +8,17 @@ const classNames = require('classnames');
 export default class Card extends React.Component {
 
   render(){
-
     const classes = classNames(styles.card,this.props.classes)
-    
+    const product = this.props.product
     const cardStyle = {
-      background: this.props.product.background,
-      color: this.props.product.color,
+      background: product.background,
+      color: product.color,
       position: this.props.position,
       zIndex: this.props.z
     };
 
     return (
-      <a href={this.props.product.url} className={classes} style={cardStyle}>
+      <a href={product.url} className={classes} style={cardStyle}>
         <div className={styles.inner}>
           <Header {...this.props}/>
           <CardBody {...this.props}/>
