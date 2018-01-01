@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+  "name": "Jenny Allen",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "#222",
+  "url":  "http://www.rocopartners.com",
+  "logo": "headshot1-thumb.jpg"
+},{
+  "name": "Rachel Harper",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "#22314b",
+  "url":  "http://football.malham.io",
+  "logo": "headshot2-thumb.jpg"
+},{
+  "name": "Tim Lewis",
+  "color":  "rgb(246, 235, 213)",
+  "direction":  "column",
+  "background":  "rgb(64, 116, 69)",
+  "url":  "http://football.malham.io",
+  "logo": "headshot3-thumb.jpg"
+},{
+  "name": "Alistair Sasqua",
+  "color":  "#222",
+  "direction":  "column",
+  "background":  "rgb(230, 185, 185)",
+  "url":  "http://www.alistair.com",
+  "logo": "headshot4-thumb.jpg"
+}]}

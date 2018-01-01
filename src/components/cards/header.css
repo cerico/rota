@@ -1,0 +1,13 @@
+.header{
+  border-width: 0;
+  /* border-bottom-width: 1px; */
+  margin-bottom: .625rem;
+  padding-bottom: 0;
+  min-height: 17;
+  border-style: solid;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.25rem;
+}

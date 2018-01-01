@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.card{
+  margin-bottom:1.1rem;
+  height:280px;
+  width:272px;
+  text-decoration:none;
+  font-family:archivo narrow;
+  display:inline-block;
+  padding-top:.625rem;
+  /* height:100%; */
+  padding-right:.625rem;
+  padding-left:.625rem;
+  -webkit-touch-callout:none;
+  margin-bottom:2%;
+  -webkit-overflow-scrolling:auto;
+  padding:1.25rem;
+  opacity: 0.88;
+  display:block;
+  margin-right:15px;
+  border-radius:.3126rem;
+  z-index:3;
+  margin-top:5%;
+  -webkit-perspective:1000;
+  perspective:1000;
+  -ms-transform:perspective(1000px);
+  -moz-transform:perspective(1000px);
+  -webkit-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  transition:width .5s,height .5s;
+  margin-bottom:1.07rem;
+  line-height: 1.6rem;
+  padding-bottom: 0rem;
+
+}
+
+
+.inner{
+  height:18.125rem;
+  padding-bottom:1.25rem;
+  padding-top:2.25rem;
+  position:relative
+}
+
+.main{
+  padding-top:.625rem;
+  height:100%
+}
+
+.card:hover{
+  opacity:1;
+  transition:all .6s
+}
+
+.inner{
+  padding-bottom: 1.25rem;
+    padding-top: 2.25rem;
+    position: relative;
+}
