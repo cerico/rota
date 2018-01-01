@@ -10,14 +10,13 @@
   font-family:archivo narrow;
   display:inline-block;
   padding-top:.625rem;
-  /* height:100%; */
   padding-right:.625rem;
   padding-left:.625rem;
   -webkit-touch-callout:none;
   margin-bottom:2%;
   -webkit-overflow-scrolling:auto;
   padding:1.25rem;
-  opacity: 0.88;
+  opacity:1;
   display:block;
   margin-right:15px;
   border-radius:.3126rem;
