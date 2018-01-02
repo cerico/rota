@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "rota",
   "version": "1.0.0",
-  "description": "template",
+  "description": "rota",
   "main": "server.js",
   "dependencies": {
     "charles-lamb-layout": "0.0.12",
@@ -77,7 +77,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.gitub.com/cerico/ships.git"
+    "url": "http://www.gitub.com/cerico/rota.git"
   },
   "author": "garethrobertlee",
   "license": "ISC"
