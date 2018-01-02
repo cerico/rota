@@ -5,8 +5,8 @@ import HTML5Backend from "react-dnd-html5-backend";
 const classNames = require("classnames");
 const FontAwesome = require("react-fontawesome");
 import styles from "./Candidates.css";
-import NormalCard from "./Cards";
-import ActiveCard from "./Cards/active";
+import NormalCard from "./cards";
+import ActiveCard from "./cards/active";
 import { moveCard } from "../state/actions/candidates";
 import { activeCandidate, getImage } from "../utils";
 
