@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 const classNames = require("classnames");
 import styles from "./Candidates.css";
-import NormalCard from "./Cards";
+import NormalCard from "./cards";
 
 const mapStateToProps = state => {
   return {
