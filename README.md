@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Drag left to accept, right to reject
+Drag left to accept, right to reject. Click 'accepted' to see accepted applicants, and 'rejected' to see rejected applicants
 
 
 ## How do i run it?
@@ -24,7 +24,7 @@ Creates production build for express
 npm run start
 ```
 
-Starts production build, runs on htpp://localhost:59027
+Starts production build, runs on htpp://localhost:59044
 
 ```
 npm run deploy
