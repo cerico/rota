@@ -32,3 +32,12 @@ npm run deploy
 
 Pushes to DigitalOcean droplet, runs on http://rota.malham.io
 
+## TODO
+
+* [ ]  Works better in Chrome and Firefox than Safari
+* [ ]  Cant drag last person
+* [ ]  Untried on tablet
+* [ ]  Message to show when acceoted/rejected
+* [ ]  Show numbers of accepted/rejected in nav bar
+
+
