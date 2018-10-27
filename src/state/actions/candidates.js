@@ -1,4 +1,11 @@
-const API_URL = `http://${window.location.host}/public/candidates.json`;
+const host = window.location.host
+let API_URL
+
+if (host.includes('localhost')){
+  API_URL = `http://${window.location.host}/public/candidates.json`;
+} else {
+  API_URL = `https://${window.location.host}/public/candidates.json`;
+}
 
 export const getCandidates = () => {
   const endpoint = `${API_URL}`;
